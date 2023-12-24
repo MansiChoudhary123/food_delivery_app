@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 export default function MyOrder() {
   const [orderData, setorderData] = useState({});
-
+// this code is write to show orders in my order 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
     await fetch("http://localhost:5000/api/auth/myOrderData", {
