@@ -1,0 +1,24 @@
+.home-page-body{
+    background-image:url("./../images/backgroundimage.jpg") ;
+}
+.home-page-text{
+    
+    font-size: 50px;
+    margin-top:150px ;
+    margin-left: 150px;
+}
+.welcome{
+    color:red;
+}
+.home-page-text2{
+    margin-left: 150px;
+}
+.home-page-burgerimage{
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+.home-page-body{
+    display:flex;
+    flex-direction: row;
+}
